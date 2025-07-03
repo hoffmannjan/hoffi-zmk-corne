@@ -2,9 +2,10 @@
 
 This directory contains the configuration files for the Corne Wireless split keyboard.
 
-It uses **BLE master/slave mode** (from `corne_*` shields) with:
+The setup uses **BLE master/slave mode**, as defined by the `corne_left` and `corne_right` shields:
 - left half  as central (master),
 - right half as peripheral (slave),
 - both halves using nice!view OLEDs.
 
 The setup is designed for a consistent and descriptive BLE name:  `Full Metal Corne`
+This name can be customized via `CONFIG_ZMK_KEYBOARD_NAME` in the config.
