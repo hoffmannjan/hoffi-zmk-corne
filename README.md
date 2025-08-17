@@ -9,3 +9,7 @@ The setup uses **BLE master/slave mode**, as defined by the `corne_left` and `co
 
 The setup is designed for a consistent and descriptive BLE name:  `FullMetalCorne`
 This name can be customized via `CONFIG_ZMK_KEYBOARD_NAME` in the config.
+
+# Config editor
+
+To edit this config I use [nickcoutsos editor](https://nickcoutsos.github.io/keymap-editor/).
