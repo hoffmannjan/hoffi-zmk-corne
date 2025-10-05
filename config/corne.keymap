@@ -20,6 +20,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo_copy {
+            bindings = <&mt LGUI C>;
+            key-positions = <26 27>;
+        };
+
+        combo_paste {
+            bindings = <&mt LGUI V>;
+            key-positions = <26 28>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
